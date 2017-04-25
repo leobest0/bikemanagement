@@ -1,0 +1,77 @@
+.section-basic-content .title{
+    width: 100%;
+    line-height: 40px;
+    color: #222;
+    font-size: 14px;
+    font-weight: normal;
+    text-indent: 20px;
+}
+.section-basic-content .perRig{
+    margin-bottom: 5px;
+}
+.section-basic-content .perRig ul{
+    overflow: hidden;
+    margin-left: 20px;
+}
+.section-basic-content .perRig ul li{
+    font-weight: bold;
+    float: left;
+    padding: 0 10px;
+    color: #222;
+}
+.section-basic-content .perLimit ul{
+    margin-left: 20px;
+    margin-bottom: 18px;
+}
+.section-basic-content .perLimit ul li{
+    padding: 0 10px;
+    color: #222;
+    overflow: hidden;
+}
+.section-basic-content .perLimit ul li .per{
+    line-height: 40px;
+    float: left;
+    color: #222;
+    font-size: 14px;
+    font-weight: normal;
+    width:150px;
+}
+.section-basic-content .perLimit ul li .per1{
+    line-height: 40px;
+    float: left;
+    margin-right: 30px;
+}
+.section-basic-content .perLimit .save{
+    width:80px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    background-color: #109ba3;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px auto 20px;
+    display: block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

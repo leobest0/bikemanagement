@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>贝庆网站管理后台</title>
+    <link rel="stylesheet" href="./css/reset.css"/>
+    <link rel="stylesheet" href="./css/common.css"/>
+    <link rel="stylesheet" href="./css/homePage.css"/>
+    <link rel="stylesheet" href="./css/depRigMana.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/homePage.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="header-container">
+        <a href="javascript:;" class="logo"><img src="./images/logo.png" alt="img"></a>
+        <a href="javascript:;" class="logo-con">
+            贝庆 网站管理后台
+        </a>
+        <div class="header-right">
+            <a href="javascript:;" class="name">
+                admin
+            </a>
+            <span class="name">
+                    上午好
+                </span>
+            <a href="javascript:;" class="login-out">
+                退出
+            </a>
+        </div>
+    </div>
+</div>
+<div class="main">
+    <div class="container">
+        <div class="menu-box">
+            <dl class="menu">
+                <dt class="menu-title">
+                    <span>系统管理</span>
+                </dt>
+                <dd class="menu-item">
+                    <a href="basicInfo.html">基础信息</a>
+                </dd>
+                <dd class="menu-item">
+                    <a href="managersManager.html">管理员管理</a>
+                </dd>
+                <dd class="menu-item">
+                    <a href="departMana.html">部门管理</a>
+                </dd>
+                <dd class="menu-item">
+                    <a href="alterPassword.html">修改密码</a>
+                </dd>
+                <dd class="menu-item">
+                    <a href="perRigMana.html">个人权限管理</a>
+                </dd>
+                <dd class="menu-item">
+                    <a href="depRigMana.html">部门权限管理</a>
+                </dd>
+            </dl>
+            <dl class="menu">
+                <dt class="menu-title">
+                    <span>用户管理</span>
+                </dt>
+                <dd class="menu-item">
+                    <a href="user.html">用户管理</a>
+                </dd>
+                <!--<dd class="menu-item">-->
+                    <!--<a href="javascript:;">添加用户</a>-->
+                <!--</dd>-->
+                <dd class="menu-item">
+                    <a href="javascript:;">统计报表</a>
+                </dd>
+            </dl>
+            <dl class="menu">
+                <dt class="menu-title">
+                    <span>车辆管理</span>
+                </dt>
+                <dd class="menu-item">
+                    <a href="bikeManage.html">车辆管理</a>
+                </dd>
+                <dd class="menu-item">
+                    <a href="lockManagement.html">车锁管理</a>
+                </dd>
+                <dd class="menu-item">
+                    <a href="faultSituation.html">故障情况</a>
+                </dd>
+                <dd class="menu-item">
+                    <a href="javascript:;">导入车辆</a>
+                </dd>
+            </dl>
+            <dl class="menu">
+                <dt class="menu-title">
+                    <span>财务管理</span>
+                </dt>
+                <dd class="menu-item">
+                    <a href="userRecharge.html">用户充值</a>
+                </dd>
+                <dd class="menu-item">
+                    <a href="chargesDetails.html">费用明细</a>
+                </dd>
+                <dd class="menu-item">
+                    <a href="javascript:;">计费管理</a>
+                </dd>
+                <dd class="menu-item">
+                    <a href="Deposit.html">押金管理</a>
+                </dd>
+                <dd class="menu-item">
+                    <a href="javascript:;">发票管理</a>
+                </dd>
+            </dl>
+            <dl class="menu">
+                <dt class="menu-title">
+                    <span>审核管理</span>
+                </dt>
+                <dd class="menu-item">
+                    <a href="javascript:;">实名认证</a>
+                </dd>
+                <dd class="menu-item">
+                    <a href="javascript:;">投诉举报</a>
+                </dd>
+            </dl>
+            <dl class="menu">
+                <dt class="menu-title">
+                    <span>活动管理</span>
+                </dt>
+                <dd class="menu-item">
+                    <a href="javascript:;">优惠活动</a>
+                </dd>
+            </dl>
+            <dl class="menu">
+                <dt class="menu-title">
+                    <span>网站管理</span>
+                </dt>
+            </dl>
+        </div>
+        <!--具体内容模块-->
+        <div class="section-box">
+            <div class="section-basic">
+                <div class="section-basic-head">
+                    部门权限管理
+                </div>
+                <div class="section-basic-content">
+                    <div class="perRig">
+                        <p class="title">部门</p>
+                        <ul>
+                            <li>
+                                <input type="radio">
+                                <span>管理部门</span>
+                            </li>
+                            <li>
+                                <input type="radio">
+                                <span>市场部</span>
+                            </li>
+                            <li>
+                                <input type="radio">
+                                <span>IT部</span>
+                            </li>
+                            <li>
+                                <input type="radio">
+                                <span>财务部</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="perLimit">
+                        <p class="title">权限</p>
+                        <ul>
+                            <li>
+                                <div class="per">系统管理</div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>基础信息</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>管理员管理</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>部门管理</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>修改密码</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>个人权限管理</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>部门权限管理</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="per">用户管理</div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>用户管理</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>添加用户</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>统计报表</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="per">车辆管理</div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>车辆管理</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>车锁管理</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>故障情况</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>导入车辆</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="per">财务管理</div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>基础信息</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>管理员管理</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>部门管理</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>修改密码</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>个人权限管理</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>部门权限管理</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="per">审核管理</div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>基础信息</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>管理员管理</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>部门管理</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>修改密码</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>个人权限管理</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>部门权限管理</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="per">活动管理</div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>基础信息</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>管理员管理</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>部门管理</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>修改密码</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>个人权限管理</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>部门权限管理</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="per">网站管理</div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>基础信息</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>管理员管理</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>部门管理</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>修改密码</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>个人权限管理</span>
+                                </div>
+                                <div class="per1">
+                                    <input type="radio"/>
+                                    <span>部门权限管理</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <input type="button" class="save" value="保存" class="save"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    Copyright © 2016-10-21 上海贝庆环保科技有限公司
+</div>
+</body>
+</html>

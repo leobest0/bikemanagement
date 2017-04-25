@@ -1,0 +1,90 @@
+.login-contain{
+    width: 100%;
+    min-height: 794px;
+}
+.login-contain .banner{
+    width:100%;
+    height: 400px;
+    background: url("../images/banner.png") no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+/*登录部分*/
+.login-contain .banner .login{
+    width: 400px;
+    height: 320px;
+    float: right;
+    background-color: #fff;
+    margin-top: 40px;
+    overflow: hidden;
+}
+.login-contain .banner .login .login-auto{
+    height: 40px;
+    padding: 0 40px;
+    line-height: 40px;
+    margin-left: 25px;
+    text-align: left;
+}
+.login-contain .banner .login .login-auto input{
+    margin-left: 10px;
+}
+.login-contain .banner .login .login-auto span{
+    color:#222;
+}
+.login-contain .banner .login h1{
+    line-height: 60px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid;
+    font-size: 24px;
+    color:#d91927;
+    margin-bottom: 20px;
+}
+.login-contain .banner .login form{
+    text-align: center;
+}
+.login-contain .banner .login form .loginIn{
+    border-radius: 6px;
+    border: 1px solid #9d9d9d;
+    text-indent: 12px;
+    color:#555;
+}
+.login-contain .banner .login form .username{
+    width: 252px;
+    height: 30px;
+    margin-bottom: 16px;
+}
+.login-contain .banner .login form .password{
+    width: 252px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.login-contain .banner .login form .loginSubmit{
+    width: 250px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    background-color:#d91927;
+    overflow: hidden;
+    display: block;
+    cursor: pointer;
+}
+.login-contain .container{
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+.login-contain .container p{
+    color: #3d3d3d;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 40px;
+}
