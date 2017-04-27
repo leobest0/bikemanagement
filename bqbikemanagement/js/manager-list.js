@@ -14,8 +14,8 @@ window.onload=function () {
     //     $(this).parent().prev().html('<input type="text" value="123">');
     // })
     // 获取数据
-    var oSave=document.getElementById('save');
-    oSave.onclick=function(){
-        alert(1);
-    }
+    // var oSave=document.getElementById('save');
+    // oSave.onclick=function(){
+    //     alert(1);
+    // }
 };

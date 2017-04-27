@@ -140,7 +140,7 @@
                 <div class="section-basic-head">
                     个人权限管理
                 </div>
-                <div class="section-basic-content">
+                <form class="section-basic-content" action="1.post.php" method="post">
                     <div class="perRig">
                         <p class="title">人员</p>
                         <ul>
@@ -155,28 +155,28 @@
                             <li>
                                 <div class="per">系统管理</div>
                                 <div class="per1">
-                                    <input type="radio"/>
-                                    <span>基础信息</span>
+                                    <input type="radio" name="basic" value="基础信息" id="basic"/>
+                                    <label for="basic">基础信息</label>
                                 </div>
                                 <div class="per1">
-                                    <input type="radio"/>
-                                    <span>管理员管理</span>
+                                    <input type="radio" name="managementer" value="管理员管理" id="managementer"/>
+                                    <label for="managementer">管理员管理</label>
                                 </div>
                                 <div class="per1">
-                                    <input type="radio"/>
-                                    <span>部门管理</span>
+                                    <input type="radio" name="department" value="部门管理" id="department"/>
+                                    <label for="department">部门管理</label>
                                 </div>
                                 <div class="per1">
-                                    <input type="radio"/>
-                                    <span>修改密码</span>
+                                    <input type="radio" name="password" value="修改密码" id="password"/>
+                                    <label for="password">修改密码</label>
                                 </div>
                                 <div class="per1">
-                                    <input type="radio"/>
-                                    <span>个人权限管理</span>
+                                    <input type="radio" name="personal" value="个人权限管理" id="personal"/>
+                                    <label for="personal">个人权限管理</label>
                                 </div>
                                 <div class="per1">
-                                    <input type="radio"/>
-                                    <span>部门权限管理</span>
+                                    <input type="radio" name="departmentMana" value="部门权限管理" id="departmentMana"/>
+                                    <label for="departmentMana">部门权限管理</label>
                                 </div>
                             </li>
                             <li>
@@ -322,9 +322,9 @@
                                 </div>
                             </li>
                         </ul>
-                        <input type="button" class="save" value="保存" class="save"/>
+                        <input type="submit" class="save" value="保存"/>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     </div>

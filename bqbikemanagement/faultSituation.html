@@ -141,39 +141,16 @@
                 <div class="section-basic-head">
                     故障情况
                 </div>
-                <div class="section-basic-content">
-                    <!--<div class="select-sector">-->
-                    <!--<div class="select-sector-title">-->
-                    <!--请选择部门:-->
-                    <!--</div>-->
-                    <!--<ul>-->
-                    <!--<li>-->
-                    <!--<input type="radio">-->
-                    <!--<span>管理部门</span>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                    <!--<input type="radio">-->
-                    <!--<span>市场部</span>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                    <!--<input type="radio">-->
-                    <!--<span>IT部</span>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                    <!--<input type="radio">-->
-                    <!--<span>财务部</span>-->
-                    <!--</li>-->
-                    <!--</ul>-->
-                    <!--</div>-->
+                <form class="section-basic-content" action="1.post.php" method="post">
                     <div class="main-box">
                         <span>车辆编号:</span>
-                        <input type="text" placeholder="请输入车辆编号"/>
+                        <input type="text" placeholder="请输入车辆编号" name="number"/>
                         <span>故障情况:</span>
                         <!--<textarea name="fault" id="fault" cols="30" rows="10" placeholder="请输入车辆故障情况"></textarea>-->
-                        <input type="text" placeholder="请输入车辆故障情况"/>
+                        <input type="text" placeholder="请输入车辆故障情况" name="fault"/>
                     </div>
-                    <input type="button" class="save" value="保存" class="save"/>
-                </div>
+                    <input type="submit" class="save" value="保存"/>
+                </form>
             </div>
             <!--管理员信息部分开始-->
             <div class="manager-list">

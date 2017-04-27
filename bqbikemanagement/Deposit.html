@@ -134,7 +134,7 @@
             </dl>
         </div>
         <div class="section-box">
-            <div class="section-basic">
+            <form class="section-basic" method="post" action="1.post.php">
                 <div class="section-basic-head">
                     押金管理
                 </div>
@@ -143,34 +143,16 @@
                         <div class="select-sector-title">
                             增加押金
                         </div>
-                        <!--<ul>-->
-                            <!--<li>-->
-                                <!--<input type="radio">-->
-                                <!--<span>管理部门</span>-->
-                            <!--</li>-->
-                            <!--<li>-->
-                                <!--<input type="radio">-->
-                                <!--<span>市场部</span>-->
-                            <!--</li>-->
-                            <!--<li>-->
-                                <!--<input type="radio">-->
-                                <!--<span>IT部</span>-->
-                            <!--</li>-->
-                            <!--<li>-->
-                                <!--<input type="radio">-->
-                                <!--<span>财务部</span>-->
-                            <!--</li>-->
-                        <!--</ul>-->
                     </div>
                     <div class="main-box">
                         <span>押金:</span>
-                        <input type="text" placeholder="请输入押金金额"/>
+                        <input type="text" placeholder="请输入押金金额" name="deposit"/>
                         <span>单价:</span>
-                        <input type="text" placeholder="请输入单价"/>
+                        <input type="text" placeholder="请输入单价" name="unitPrice"/>
                     </div>
-                    <input type="button" class="save" value="保存" class="save"/>
+                    <input type="submit" class="save" value="保存"/>
                 </div>
-            </div>
+            </form>
             <!--管理员信息部分开始-->
             <div class="manager-list">
                 <table>

@@ -65,9 +65,6 @@
                 <dd class="menu-item">
                     <a href="user.html" class="partner">用户管理</a>
                 </dd>
-                <!--<dd class="menu-item">-->
-                <!--<a href="javascript:;">添加用户</a>-->
-                <!--</dd>-->
                 <dd class="menu-item">
                     <a href="javascript:;" class="partner">统计报表</a>
                 </dd>
@@ -75,6 +72,7 @@
             <dl class="menu">
                 <dt class="menu-title">
                     <span>车辆管理</span>
+
                 </dt>
                 <dd class="menu-item">
                     <a href="bikeManage.html" class="partner">车辆管理</a>
@@ -140,38 +138,15 @@
                 <div class="section-basic-head">
                     用户充值
                 </div>
-                <div class="section-basic-content">
-                    <!--<div class="select-sector">-->
-                        <!--<div class="select-sector-title">-->
-                            <!--请选择部门:-->
-                        <!--</div>-->
-                        <!--<ul>-->
-                            <!--<li>-->
-                                <!--<input type="radio">-->
-                                <!--<span>管理部门</span>-->
-                            <!--</li>-->
-                            <!--<li>-->
-                                <!--<input type="radio">-->
-                                <!--<span>市场部</span>-->
-                            <!--</li>-->
-                            <!--<li>-->
-                                <!--<input type="radio">-->
-                                <!--<span>IT部</span>-->
-                            <!--</li>-->
-                            <!--<li>-->
-                                <!--<input type="radio">-->
-                                <!--<span>财务部</span>-->
-                            <!--</li>-->
-                        <!--</ul>-->
-                    <!--</div>-->
+                <form class="section-basic-content" action="1.post.php" method="post">
                     <div class="main-box">
                         <span>押金:</span>
-                        <input type="text" placeholder="请输入押金金额"/>
+                        <input type="text" placeholder="请输入押金金额" name="deposit"/>
                         <span>充值:</span>
-                        <input type="text" placeholder="请输入充值金额"/>
+                        <input type="text" placeholder="请输入充值金额" name="recharge"/>
                     </div>
-                    <input type="button" class="save" value="保存" class="save"/>
-                </div>
+                    <input type="submit" class="save" value="保存"/>
+                </form>
             </div>
             <!--管理员信息部分开始-->
             <div class="manager-list">

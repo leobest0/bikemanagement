@@ -66,9 +66,6 @@
                 <dd class="menu-item">
                     <a href="user.html" class="partner">用户管理</a>
                 </dd>
-                <!--<dd class="menu-item">-->
-                <!--<a href="javascript:;">添加用户</a>-->
-                <!--</dd>-->
                 <dd class="menu-item">
                     <a href="javascript:;" class="partner">统计报表</a>
                 </dd>
@@ -141,38 +138,38 @@
                 <div class="section-basic-head">
                     编辑管理员
                 </div>
-                    <div class="section-basic-content">
+                    <form class="section-basic-content" action="1.post.php" method="post">
                         <div class="select-sector">
                             <div class="select-sector-title">
                                 请选择部门:
                             </div>
                             <ul>
                                 <li>
-                                    <input type="radio">
-                                    <span>管理部门</span>
+                                    <input type="radio" name="department" value="管理部" id="management"/>
+                                    <label for="management">管理部</label>
                                 </li>
                                 <li>
-                                    <input type="radio">
-                                    <span>市场部</span>
+                                    <input type="radio" name="department" value="市场部" id="market"/>
+                                    <label for="market">市场部</label>
                                 </li>
                                 <li>
-                                    <input type="radio">
-                                    <span>IT部</span>
+                                    <input type="radio" name="department" value="IT部" id="it"/>
+                                    <label for="it">IT部</label>
                                 </li>
                                 <li>
-                                    <input type="radio">
-                                    <span>财务部</span>
+                                    <input type="radio" name="department" value="财务部" id="finance"/>
+                                    <label for="finance">财务部</label>
                                 </li>
                             </ul>
                         </div>
                         <div class="main-box">
                             <span>用户名:</span>
-                            <input type="text" placeholder="请输入用户名"/>
+                            <input type="text" placeholder="请输入用户名" name="username"/>
                             <span>编号:</span>
-                            <input type="text" placeholder="请输入编号"/>
+                            <input type="text" placeholder="请输入编号" name="number"/>
                         </div>
-                        <a href="managersManager.html"><input type="button" class="save" value="保存" class="save"/></a>
-                    </div>
+                        <input type="submit" class="save" value="保存"/>
+                    </form>
             </div>
         </div>
     </div>
